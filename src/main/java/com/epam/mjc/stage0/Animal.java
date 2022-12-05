@@ -1,9 +1,9 @@
 package com.epam.mjc.stage0;
 
 public class Animal {
-    String color;
-    int numberOfPaws;
-    boolean hasFur;
+    private String color;
+    private int numberOfPaws;
+    private boolean hasFur;
 
     Animal(String color, int numberOfPaws, boolean hasFur){
         this.color = color;
@@ -24,7 +24,7 @@ public class Animal {
     }
 
     public static void main(String[] args) {
-        Animal an = new Animal("black",1,false);
+        Animal an = new Animal("red", 3, true);
         System.out.println(an.getDescription());
 
         Bird bird = new Bird();

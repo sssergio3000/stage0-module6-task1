@@ -5,7 +5,7 @@ public class Animal {
     private int numberOfPaws;
     private boolean hasFur;
 
-    Animal(String color, int numberOfPaws, boolean hasFur){
+    public Animal(String color, int numberOfPaws, boolean hasFur){
         this.color = color;
         this.numberOfPaws = numberOfPaws;
         this.hasFur = hasFur;
@@ -16,10 +16,10 @@ public class Animal {
             String forReturn="";
 
         if(this.numberOfPaws==1){
-           powNum = "pow";
+           powNum = "paw";
         }
         if(this.numberOfPaws>1){
-            powNum = "pows";
+            powNum = "paws";
         }
         if (this.hasFur==false){
             fur = "no";

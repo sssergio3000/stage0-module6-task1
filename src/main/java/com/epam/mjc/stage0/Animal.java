@@ -10,7 +10,7 @@ public class Animal {
         this.numberOfPaws = numberOfPaws;
         this.hasFur = hasFur;
     }
-        String getDescription(){
+        public String getDescription(){
             String powNum ="";
             String fur = "a";
             String forReturn="";
